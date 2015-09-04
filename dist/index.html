@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Expression table</title>
+<title>Alias search</title>
 
 <script src="js/jquery-1.11.3.min.js"></script>
 
@@ -19,9 +19,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body style="font: 14px helvetica neue, helvetica, arial, sans-serif; margin: 10px">
-<p>Get FPKM, Normalized read counts, tissue, and library ID for bovine RNA-seq libraries</p>
+<p>Map between ensembl and refseq IDs</p>
 <form>
-<label>Enter transcript ID (e.g NM_174455.3): </label><input id="transcript_id" type="text"></input>
+<label>Enter NCBI GeneID (e.g 100034674): </label><input id="gene_id" type="text"></input><br />
+<label>Enter Ensembl GeneID (e.g ENSBTAG00000048316): </label><input id="ens_gene_id" type="text"></input><br />
 <input type="submit"></input>
 </form>
 <div id="my-id"></div>

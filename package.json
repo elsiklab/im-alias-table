@@ -1,5 +1,5 @@
 {
-  "name": "im-expr-table",
+  "name": "im-alias-table",
   "version": "1.0.0",
   "description": "Imjs table query",
   "main": "index.js",

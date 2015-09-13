@@ -1,5 +1,4 @@
-var imtables = require('im-tables');
-var utils = require('./util');
+var utils = require('./js/util');
 
 
 // check query params
